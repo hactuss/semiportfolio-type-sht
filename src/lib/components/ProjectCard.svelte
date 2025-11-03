@@ -1,6 +1,4 @@
 <script>
-    import { derived } from "svelte/store";
-
     export let title;
     export let discription;
     export let url;
@@ -21,13 +19,5 @@
         border: white solid 1px;
         border-radius: 10px;
         padding: 5px;
-    }
-    div {
-        display: flex;
-    }
-    img {
-        display: inline;
-        width: 24px;
-        height: 24px;
     }
 </style>
