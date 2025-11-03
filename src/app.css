@@ -1,0 +1,30 @@
+* {
+    margin: 5px;
+}
+:root {
+    /*font-family: "DugasPro";*/
+    font-size: 1.25rem;
+    white-space: collapse;
+    font-family: monospace;
+}
+@font-face {
+    font-family: "DugasPro";
+    src:
+        local("DugasPro"),
+        url("./lib/assets/fonts/dugas_pro/ttf/DugasPro-RegularCondensed.ttf");
+}
+
+html {
+    background-color: black;
+    color: white;
+}
+footer {
+    font-size: 0.8rem;
+}
+li,
+ul {
+    list-style-type: "▷ ";
+}
+a {
+    color: #c8fa14;
+}
