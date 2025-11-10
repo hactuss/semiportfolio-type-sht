@@ -11,6 +11,13 @@
         "https://imgs.search.brave.com/2Lop95efMN3mNn8YORMHw4gXlmuiYbR1SXVpQQV4NCo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi85Lzk5L1Vu/b2ZmaWNpYWxfSmF2/YVNjcmlwdF9sb2dv/XzIuc3ZnLzI1MHB4/LVVub2ZmaWNpYWxf/SmF2YVNjcmlwdF9s/b2dvXzIuc3ZnLnBu/Zw";
     let screenshot = [ss_ccenter, ss_Worldclock, ss_spookymonth];
 
+    let cypher = ["a", 1, "b", 2, "c", 3];
+
+    function decrypt() {
+        console.log("hello".slice(2));
+    }
+    decrypt();
+
     let number = $state(1);
     $effect(() => {
         setInterval(() => {
@@ -30,6 +37,7 @@
      \|__|\|__|\|__|\|__|\|_______|   \|__|  \|_______|\_________\\_________\
                                                       \|_________\|_________|
 </pre> -->
+
 <main id="MAIN_CONTAINER">
     <main id="SIDEBAR">
         <!--
@@ -63,7 +71,12 @@
         <hr />
         <div id="Projects_wrapper">
             <h2>Projects</h2>
-
+            <ProjectCard
+                title="This portfolio"
+                buildtime="Oct 10. 2025"
+                discription="This portfolio I created to tell about my projects and work."
+                url="/"
+            />
             <ProjectCard
                 title="Center Calculator"
                 buildtime="Sep 27. 2025"
@@ -209,5 +222,9 @@
             writing-mode: horizontal-tb;
             margin-left: 1rem;
         }
+    }
+    #sv {
+        position: absolute;
+        top: 300px;
     }
 </style>

@@ -7,7 +7,7 @@
 
 <main>
     <h2>{title}</h2>
-    <p>built {buildtime}</p>
+    <p>started {buildtime}</p>
     <p>{discription}</p>
     <a href={url}>Visit ⇱</a>
 </main>
@@ -20,5 +20,6 @@
         border-radius: 10px;
         padding: 5px;
         margin-bottom: 3%;
+        backdrop-filter: blur(5px);
     }
 </style>
