@@ -76,7 +76,7 @@
                 buildtime="Nov 2. 2025"
                 discription="This portfolio I created to tell about my projects and work."
                 url="/"
-                url_gh="https://github.com/hactuss/semiportfolio-type-sht"
+                url_gh="https://github.com/hactuss/portfolio"
             />
             <ProjectCard
                 title="Center Calculator"
