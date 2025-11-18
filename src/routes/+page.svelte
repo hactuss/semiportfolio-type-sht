@@ -48,9 +48,11 @@
             />
             </div>-->
         <span id="SIDEBAR_TEXT">H A C T U S S</span>
-        <a href="https://github.com/hactuss" id="githublogo">
-            <img src={ghlogo} alt="github_logo" />
-        </a>
+        <div id="gh_link">
+            <a href="https://github.com/hactuss" id="githublogo">
+                <img src={ghlogo} alt="github_logo" />
+            </a>
+        </div>
     </main>
     <main id="MAIN_CONTENTS">
         <header>
@@ -220,6 +222,7 @@
             display: flex;
             flex-direction: row;
             align-items: flex-end;
+            justify-content: space-between;
         }
         #SIDEBAR_TEXT {
             writing-mode: horizontal-tb;
