@@ -1,33 +1,37 @@
 * {
-    margin: 5px;
-    /*font-family: "DugasPro";*/
+	margin: 5px;
+	/*font-family: "DugasPro";*/
 }
 :root {
-    font-size: 1.25rem;
-    white-space: collapse;
-    font-family: monospace;
+	font-size: 1.25rem;
+	white-space: collapse;
+	font-family: monospace;
 }
 @font-face {
-    font-family: "DugasPro";
-    src:
-        local("DugasPro"),
-        url("./lib/assets/fonts/dugas_pro/ttf/DugasPro-RegularCondensed.ttf");
+	font-family: 'DugasPro';
+	src: local('DugasPro'), url('./lib/assets/fonts/dugas_pro/ttf/DugasPro-RegularCondensed.ttf');
+}
+* {
+	::selection {
+		color: rgb(50 50 50);
+		background-color: rgb(200 250 20);
+	}
 }
 
 html {
-    background-color: rgb(30 30 30);
-    color: white;
-    background-image: url("https://imgs.search.brave.com/bDx7OquS6IrpfGWWKAKuLEB978SrEmZYS_wT76gkmLg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvY29uY3JldGUt/dGV4dHVyZS1waWN0/dXJlcy1yZzF5aGRo/dTlrYnVpbmZ3Lmpw/Zw");
-    background-size: contain;
-    background-image: none;
+	background-color: rgb(30 30 30);
+	color: white;
+	background-image: url('https://imgs.search.brave.com/bDx7OquS6IrpfGWWKAKuLEB978SrEmZYS_wT76gkmLg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvY29uY3JldGUt/dGV4dHVyZS1waWN0/dXJlcy1yZzF5aGRo/dTlrYnVpbmZ3Lmpw/Zw');
+	background-size: contain;
+	background-image: none;
 }
 footer {
-    font-size: 0.8rem;
+	font-size: 0.8rem;
 }
 li,
 ul {
-    list-style-type: "▷ ";
+	list-style-type: '▷ ';
 }
 a {
-    color: #c8fa14;
+	color: #c8fa14;
 }
