@@ -44,6 +44,9 @@
 					and
 					<a id="marked3" href="https://sass-lang.com/">SCSS</a>
 				</li>
+				
+				<li>Currently learning <a id="marked4" href="https://rust-lang.org" > Rust </a> </li>
+				
 				<li>Seeking job in IT industry</li>
 			</ul>
 		</header>
